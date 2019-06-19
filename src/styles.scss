@@ -176,5 +176,27 @@ body{
         .offset-l1-10 {margin-left: 83.333333%}
         .offset-l1-11 {margin-left: 91.666667%}
         }
+
+ /* Scroll bar code begins */
+        /* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555 !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333 !important;
+}
+ /* Scroll bar code ends */
     
  
