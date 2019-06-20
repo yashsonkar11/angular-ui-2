@@ -1,0 +1,66 @@
+.main{
+    background-color: rgb(30, 30, 45);
+    height: 100vh;
+    position: relative
+  }
+
+  .login-box{
+    position: absolute;
+    background-color: #FFFFFF;
+    color: red;
+    top: 10vh;
+    left: 10vw;
+    height: 80vh;
+    width: 80vw;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  
+  @media only screen and (min-width: 480px) {
+    .login-box{
+      top: 10vh;
+      left: 10vw;
+      height: 80vh;
+      width: 80vw;
+    }
+  }  
+
+  @media only screen and (min-width: 641px) {
+    .login-box{
+      top: 15vh;
+      left: 20vw;
+      height: 75vh;
+      width: 60vw;
+    }
+  }  
+
+  @media only screen and (min-width: 961px) {
+    .login-box{
+      top: 15vh;
+      left: 20vw;
+      height: 75vh;
+      width: 60vw;
+    }
+  }  
+
+  @media only screen and (min-width: 1025px) {
+    .login-box{
+      top: 15vh;
+      left: 25vw;
+      height: 75vh;
+      width: 50vw;
+    }
+  }  
+
+  @media only screen and (min-width: 1281px) {
+    .login-box{
+      top: 15vh;
+      left: 30vw;
+      height: 75vh;
+      width: 40vw;
+    }
+  }  
+
