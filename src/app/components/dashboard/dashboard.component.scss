@@ -1,0 +1,30 @@
+.header{
+    background-color: rgb(30, 30, 45);
+    height: 44px;
+  }
+  
+  .navbar{
+    background-color: rgb(30, 30, 45);
+    height: 100vh;
+  }
+  
+  .main{
+    height: 80vh;
+  }
+  
+  ul{
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+  
+  li{
+    color: #ffffff;
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  .logout{
+    color: #ffffff;
+    float: right;
+    margin: 12px 28px;
+  }
