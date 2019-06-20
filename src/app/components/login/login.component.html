@@ -4,19 +4,27 @@
       <div class="row">
 
         <div class="offset-s-4 col-s-4 r-offset-s-4">
-          <div class="title">
+          <h2 class="title">
               Login
-          </div>
+          </h2>
         </div>
 
-      <input class="offset-s-3 col-s-6 r-offset-s-3" type="text">
+        <div class="offset-s-3 col-s-6 r-offset-s-3 mt">
+            <input  type="text" placeholder="Username">
+        </div>
 
-      <input class="offset-s-3 col-s-6 r-offset-s-3" type="text">
+        <div class="offset-s-3 col-s-6 r-offset-s-3 mt">
+            <input type="text" placeholder="Password">
+        </div>
 
-      <button class="offset-s-4 col-s-4 r-offset-s-4">
-        Submit
-      </button>
-      
+        <div class="offset-s-4 col-s-4 r-offset-s-4 mt">
+            <button >
+                <a [routerLink]="'/dashboard'">
+                  Submit
+                </a>
+              </button>
+        </div>
+     
   </div>
 
 </div>
